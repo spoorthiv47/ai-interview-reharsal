@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Interview Reharsal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>AI Interview Rehearsal</h1>
+    <p class="subtitle">
+      Practice out loud. Get better, one question at a time.
+    </p>
+
+    <label for="roleSelect">Choose a role:</label>
+    <select id="roleSelect">
+      <option value="general">General</option>
+      <option value="frontend">Frontend Developer</option>
+      <option value="backend">Backend Developer</option>
+    </select>
+
+    <button id="getQuestionBtn">Get Interview Questions</button>
+
+    <div id="question">Click the button to get a question.</div>
+
+    <textarea
+      id="answerInput"
+      placeholder="Type your answer here..."
+    ></textarea>
+    <button id="submitAnswerBtn">Submit Answer</button>
+
+    <div id="feedback"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
